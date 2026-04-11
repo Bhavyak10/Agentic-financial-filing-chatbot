@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Financial Filing Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-dot"></div>
+        <div>
+          <h1 class="brand-title">Financial Filing Analyst</h1>
+          <p class="brand-subtitle">Ask about risks, business, segments, and comparisons from 10-K filings.</p>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <label class="toggle-row">
+          <input type="checkbox" id="showCitations" />
+          <span>Show citations</span>
+        </label>
+        <div class="status-pill">
+          <span class="status-light"></span>
+          Filing engine active
+        </div>
+      </div>
+    </header>
+
+    <main class="chat-layout">
+      <section id="chatMessages" class="chat-messages">
+        <div class="message assistant">
+          <div class="avatar">AI</div>
+          <div class="message-content">
+            <div class="bubble assistant-bubble">
+              Hi! I can help you understand company 10-K filings, compare businesses, and summarize risks in plain English.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="composer-shell">
+        <button id="clearBtn" class="clear-btn" type="button">New chat</button>
+
+        <form id="chatForm" class="composer">
+          <textarea
+            id="messageInput"
+            rows="1"
+            placeholder="Ask a question about filings..."
+          ></textarea>
+
+          <button id="sendBtn" class="send-btn" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
