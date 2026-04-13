@@ -10,7 +10,7 @@ Built with **FastAPI · LangGraph · Qwen (Ollama) · Pinecone · Docker**
 
 Financial filings contain critical insights about business strategy, risks, and operations — but navigating them efficiently is rarely straightforward. This project transforms indexed 10-K content into a conversational interface where users can ask plain-English questions and receive grounded, evidence-backed answers.
 
-Rather than a naive retrieve-and-answer pipeline, the system uses a **multi-step agentic workflow**: it interprets intent, selects the most relevant filing section, applies metadata-aware retrieval, and synthesizes a polished response — all without the user needing any knowledge of filing structure.
+Rather than a naive retrieve-and-answer pipeline, the system uses a **multi-step agentic workflow**: it interprets intent, selects the most relevant filing section, applies metadata-aware retrieval, and synthesizes a polished response, all without the user needing any knowledge of filing structure.
 
 ---
 
