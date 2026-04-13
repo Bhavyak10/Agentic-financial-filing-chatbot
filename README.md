@@ -143,4 +143,4 @@ The core system is fully functional. Planned improvements include:
 
 ## 💡 Why This Project Matters
 
-Dense financial filings contain some of the most important information a company publishes — but reading them takes hours. This project makes that information instantly accessible: ask a plain-English question, get a grounded answer drawn from the actual filing. Whether you're summarizing a business, identifying key risks, or comparing two companies side by side, the system does the heavy lifting so you don't have to.
+Dense financial filings contain some of the most important information a company publishes, but reading them takes hours. This project makes that information instantly accessible: ask a plain-English question, get a grounded answer drawn from the actual filing. Whether you're summarizing a business, identifying key risks, or comparing two companies side by side, the system does the heavy lifting so you don't have to.
