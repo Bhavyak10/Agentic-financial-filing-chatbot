@@ -129,18 +129,6 @@ This design keeps retrieval targeted and responses grounded — the model always
 
 ---
 
-## 💬 Example Questions
-```
-What were Amazon's main risks in 2022?
-Summarize Apple's business in 2023.
-Compare Amazon and Microsoft business in 2023.
-Tell me something important about Amazon's 2022 10-K in simple terms.
-Compare Apple and Tesla risk factors in 2023.
-What stands out most in Microsoft's filing?
-```
-
----
-
 ## 🔮 Roadmap
 
 The core system is fully functional. Planned improvements include:
